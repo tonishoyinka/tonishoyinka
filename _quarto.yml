@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "Toni Shoyinka"
+  navbar:
+    background: purple
+    right:
+      - interest.qmd
+      - education.qmd
+      - cv.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/oluwatoni-shoyinka-90b251235/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:tonishoyinka@gmail.com"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+engine: knitr
+editor: visual
+
